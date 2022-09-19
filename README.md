@@ -15,11 +15,11 @@
 Add this in qb-radialmenu/config.lua
 ```lua    
             {
-                id = 'la-gardener:OpenMenu',
+                id = 'qb-gardener:OpenMenu',
                 title = 'Градинар',
                 icon = 'tablet',
                 type = 'client',
-                event = 'la-gardener:OpenMenu',
+                event = 'qb-gardener:OpenMenu',
                 shouldClose = true
             },
 

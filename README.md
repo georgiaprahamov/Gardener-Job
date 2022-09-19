@@ -9,5 +9,16 @@
 * [ps-fuel](https://github.com/Project-Sloth/ps-fuel)
 * **okokNotify**
 
+Add this in qb-radialmenu/config.lua
+```lua    
+            {
+                id = 'la-gardener:OpenMenu',
+                title = 'Градинар',
+                icon = 'tablet',
+                type = 'client',
+                event = 'la-gardener:OpenMenu',
+                shouldClose = true
+            },
+
 ![image](https://user-images.githubusercontent.com/64840882/191103774-2aa61009-3864-47a5-a052-2236336e8e1e.png)
 ![image](https://user-images.githubusercontent.com/64840882/191103879-61614634-809f-4d57-b66e-defe2df3576f.png)
